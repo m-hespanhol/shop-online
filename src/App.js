@@ -53,10 +53,6 @@ class App extends React.Component {
         >Change to John</button>
 
         <button
-          onClick={() => this.handleClick('Danny')}
-        >Change to Danny</button>
-
-        <button
           onClick={this.handleIncreaseClick}
         >Increase</button>
 
