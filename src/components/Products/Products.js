@@ -32,7 +32,7 @@ class Products extends React.Component {
         return (
             <div>
                 <div>Welcome, {this.props.userName}.</div>
-                <h1>Our New Products</h1>
+                <h1>Products on Sale</h1>
                 <div>{this.state.products.map(
                     (product, index) => {
                         return (

@@ -4,7 +4,7 @@ function Product(props) {
         <div>
             <hr />
             <h2>{props.product.name}</h2>
-            <div>{props.product.price}</div>
+            <div>Special Price: {props.product.price}</div>
         </div>
     );
 }
